@@ -13,7 +13,7 @@ const tasks = [
 
 function renderElements(tasks) {
   const taskList = document.querySelector('.tasks__list');
-  taskList.innerHTML = '';
+  taskList.innerHTML = "";
 
   tasks.forEach(task => {
     const newTaskItem = createTaskItem(task);
